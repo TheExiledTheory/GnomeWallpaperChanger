@@ -6,10 +6,10 @@ These days most desktop managers typically have this simple functionality of shu
 
 The is very simple to setup, again ... not even necessary for most. However, once I was finished I had the idea to to add more functionality by using threads to allow for parallel execution of multiple pipes for things such as exstablishing an OpenVPN connection and any other repetative task.
 
-_Setup_
+_Run_
 
-     run in terminal "g++ -Wall -Wextra -o WallpaperChanger WallpaperChanger.cpp" (-Wall and -Wextra will tell you if anything suspicious is noticed by the compiler)  
-    ./WallpaperChanger
+     "g++ -Wall -Wextra -o WallpaperChanger WallpaperChanger.cpp" (-Wall and -Wextra will tell you if anything suspicious is noticed by the compiler)  
+    "./WallpaperChanger"
 
 This is the credit for the actual pipe algorithm - https://dev.to/aggsol/calling-shell-commands-from-c-8ej
 
